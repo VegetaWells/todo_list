@@ -2,7 +2,7 @@ import {useState} from 'react';
 import {FilterButton} from './FilterButton';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import {FILTER_TYPE} from '../constants/filterConstants';
-import {useSelector} from 'react-redux'; // TODO
+// import {useSelector} from 'react-redux'; // TODO future
 
 export const Filter = () => {
     const [filterState, setFilterState] = useState(FILTER_TYPE.ALL);
